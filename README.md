@@ -21,7 +21,7 @@ To run the program, you will need the following dependencies:
 * image_filters.py (version 1.0)
 
 ## Usage
-The Image Filter Program offers two usage options: batch_ui and interactive_ui. In batch_ui, users can perform batch processing by providing a .txt file with a list of commands. It's important to note that the 3-tone filter uses "blood," "lemon," and "gray" as the three tones. Additionally, the Edge Detection filter has a threshold value of 15. Draw Curve filter is not available for batch_ui. In T109_interactive_ui, users can interactively load an image and apply filters. Commands can be entered in uppercase, lowercase, or a combination of both. The Draw Curve filter uses the curve color "cyan." Users can save the filtered image by entering "S" and quit the program by entering "Q".
+The Image Filter Program offers two usage options: batch_ui and interactive_ui. In batch_ui, users can perform batch processing by providing a .txt file with a list of commands. It's important to note that the 3-tone filter uses "blood," "lemon," and "gray" as the three tones. Additionally, the Edge Detection filter has a threshold value of 15. Draw Curve filter is not available for batch_ui. In interactive_ui, users can interactively load an image and apply filters. Commands can be entered in uppercase, lowercase, or a combination of both. The Draw Curve filter uses the curve color "cyan." Users can save the filtered image by entering "S" and quit the program by entering "Q".
 
 ### Batch UI
 1. Create a .txt file and put the name of the image to be filtered, filename when saved, and consecutive commands of filters all in one line, separated by a space.
